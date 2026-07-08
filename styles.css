@@ -189,6 +189,9 @@ section { max-width: 1240px; margin: 0 auto; padding: 64px 24px; }
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+.products-grid {
+  margin-bottom: 0;
+}
 .service-card h3,
 .product-card h3 { margin-bottom: 8px; color: var(--navy); }
 .service-card p,
