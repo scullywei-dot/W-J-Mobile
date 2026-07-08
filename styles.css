@@ -20,6 +20,9 @@ body {
   background: linear-gradient(135deg, #f8fbff 0%, #f3f8ff 50%, #fff8ee 100%);
 }
 a { text-decoration: none; }
+html {
+  scroll-behavior: smooth;
+}
 
 .navbar {
   position: sticky;
@@ -211,6 +214,21 @@ section { max-width: 1240px; margin: 0 auto; padding: 64px 24px; }
 .product-card:hover {
   border-color: #d8e8f8;
   box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
+}
+
+.products-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 42px auto 28px;
+  max-width: 740px;
+  text-align: center;
+}
+.products-note {
+  color: var(--muted);
+  font-size: 0.94rem;
+  max-width: 680px;
 }
 
 .cta {
